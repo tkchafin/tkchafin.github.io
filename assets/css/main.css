@@ -4116,7 +4116,7 @@
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
-			background-size: auto;
+			background-size: contain;
 			height: 100%;
 			left: 0;
 			opacity: 0;
