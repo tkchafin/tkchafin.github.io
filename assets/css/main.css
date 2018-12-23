@@ -4114,6 +4114,7 @@
 			-ms-transition: opacity 1.5s ease, visibility 1.5s;
 			transition: opacity 1.5s ease, visibility 1.5s;
 			background-attachment: fixed;
+			background-color:#636363;
 			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: auto 100%;
