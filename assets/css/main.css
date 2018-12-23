@@ -4116,7 +4116,7 @@
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
-			background-size: contain;
+			background-size: auto;
 			height: 100%;
 			left: 0;
 			opacity: 0;
@@ -4159,7 +4159,7 @@
 				}
 
 			.banner > article h2 {
-				font-size: 7rem;
+				font-size: 5rem;
 				margin-bottom: 0;
 				color: #FFF;
 				font-weight: 300;
