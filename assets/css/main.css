@@ -4230,29 +4230,27 @@
 
 			.banner.full {
 				padding: 0;
+				min-height: 75vh;
+				height: 75vh !important;
+			}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			.banner.full {
+				padding: 0;
 				min-height: 50vh;
 				height: 50vh !important;
 			}
 
-		}
-
-
-
-		@media screen and (max-width: 736px) {
-
-			.banner > article .inner {
-				width: 90%;
-			}
-
-			.banner > article p {
-				margin-bottom: 1rem;
-			}
-
-			.banner > article h2 {
-				font-size: 4em;
+			.banner > article {
+				background-attachment: scroll;
 			}
 
 		}
+
+
 
 		body.is-mobile .banner > article {
 			background-attachment: scroll;
