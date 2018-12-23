@@ -4117,7 +4117,7 @@
 			background-color:#636363;
 			background-position: center center;
 			background-repeat: no-repeat;
-			background-size: auto 100%;
+			background-size: contain;
 			height: 100%;
 			left: 0;
 			opacity: 0;
