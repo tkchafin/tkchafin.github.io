@@ -4002,6 +4002,7 @@
 		color: #e2d1df;
 		padding: 8em 0;
 		position: relative;
+		vertical-align: middle;
 	}
 
 		.banner input, .banner select, .banner textarea {
