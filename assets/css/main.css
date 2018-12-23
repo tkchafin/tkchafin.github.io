@@ -4198,6 +4198,8 @@
 
 			.banner > article img {
 				display: none;
+				height:100%;
+				vertical-align:middle;
 			}
 
 			.banner > article.visible {
