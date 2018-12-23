@@ -4201,7 +4201,7 @@
 			}
 
 			.banner > article img {
-				display: block;
+				display: none;
 			}
 
 			.banner > article.visible {
