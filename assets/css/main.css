@@ -4236,15 +4236,7 @@
 
 		}
 
-		@media screen and (max-width: 980px) {
 
-			.banner.full {
-				padding: 0;
-				min-height: 50vh;
-				height: 50vh !important;
-			}
-
-		}
 
 		@media screen and (max-width: 736px) {
 
