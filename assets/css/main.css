@@ -4202,7 +4202,7 @@
 
 			.banner > article img {
 				display: none;
-				vertical-align: middle;
+				width:50%;
 			}
 
 			.banner > article.visible {
