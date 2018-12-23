@@ -4203,6 +4203,9 @@
 			.banner > article img {
 				display: none;
 				width:100%;
+				position: relative;
+				top: 50%;
+				transform: translateY(-50%);
 			}
 
 			.banner > article.visible {
