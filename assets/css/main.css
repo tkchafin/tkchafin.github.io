@@ -3733,7 +3733,7 @@
 		}
 
 			#header > .logo a {
-				font-size: 2em;
+				font-size: 2.5em;
 				color: #FFF;
 				text-decoration: none;
 			}
@@ -4200,6 +4200,7 @@
 				display: none;
 				height:100%;
 				vertical-align:middle;
+				background-position: bottom center;
 			}
 
 			.banner > article.visible {
