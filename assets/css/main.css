@@ -4244,7 +4244,9 @@
 				height: 50vh !important;
 			}
 
-
+			.banner > article {
+				background-attachment: scroll;
+			}
 
 		}
 
@@ -4261,7 +4263,9 @@
 			.banner > article h2 {
 				font-size: 4em;
 			}
-
+			.banner > article {
+				background-attachment: scroll;
+			}
 		}
 
 		body.is-mobile .banner > article {
