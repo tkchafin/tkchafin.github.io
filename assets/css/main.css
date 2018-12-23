@@ -4114,7 +4114,7 @@
 			-ms-transition: opacity 1.5s ease, visibility 1.5s;
 			transition: opacity 1.5s ease, visibility 1.5s;
 			background-attachment: fixed;
-			background-position: center;
+			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: cover;
 			height: 100%;
@@ -4200,7 +4200,6 @@
 				display: none;
 				height:100%;
 				vertical-align:middle;
-				background-position: bottom center;
 			}
 
 			.banner > article.visible {
