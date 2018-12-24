@@ -171,6 +171,7 @@
 			for (i=0; i< choose; i++){
 				var k = i+1
 				document.getElementById("i"+k).src = "images/highlight_" + chosen[i] + ".png";
+				document.getElementById("a"+k).href= "highlight_" + chosen[i] + ".html";
 			}
 		}
 		window.onload = setGallery;
