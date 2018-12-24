@@ -3631,6 +3631,7 @@
 
 		.gallery > :nth-child(2n + 1),
 		.gallery > :nth-child(2n) {
+			padding: 1rem;
 			width: calc(50% + 0rem);
 		}
 
