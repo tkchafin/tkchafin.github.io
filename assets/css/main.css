@@ -3495,7 +3495,7 @@
 			.grid-style > :nth-child(2n + 1),
 			.grid-style > :nth-child(2n) {
 				padding: 1rem;
-				width: calc(50% + 1rem);
+				width: calc(50% + 0rem);
 			}
 
 			.grid-style > * {
@@ -3521,7 +3521,7 @@
 
 			.grid-style > :nth-child(2n + 1),
 			.grid-style > :nth-child(2n) {
-				width: calc(50% + 1rem);
+				width: calc(50% + 0rem);
 			}
 
 		}
@@ -3556,7 +3556,7 @@
 			.grid-style > :nth-child(2n + 1),
 			.grid-style > :nth-child(2n) {
 				padding: 1rem;
-				width: calc(100% + 2rem);
+				width: calc(100% + 0rem);
 			}
 
 			.grid-style > * {
@@ -3582,7 +3582,7 @@
 
 			.grid-style > :nth-child(1n + 1),
 			.grid-style > :nth-child(1n) {
-				width: calc(100% + 1rem);
+				width: calc(100% + 0rem);
 			}
 
 		}
