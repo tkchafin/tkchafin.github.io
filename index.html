@@ -170,13 +170,9 @@
 			chosen = getRandom(myProjects, choose);
 
 			for (i=0; i< choose; i++){
-				document.getElementById("i"+i).src = "images/highlight_" + chosen[i] + ".png";
-				var aid="a" + str(i);
-				var iid="i" + str(i);
-				var a = document.getElementById(aid);
-				a.href = "highlight_" + chosen[i] + ".html";
-				var im = document.getElementById(iid);
-				im.src = "images/highlight_" + chosen[i] + ".png";
+				var aid = "a".concat(i);
+				var iid = "i".concat(i);
+				document.getElementById(iid).src = "images/highlight_" + chosen[i] + ".png";
 			}
 		}
 		window.onload = setGallery;
