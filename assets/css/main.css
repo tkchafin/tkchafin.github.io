@@ -3519,9 +3519,9 @@
 				padding-right: 0;
 			}
 
-			.grid-style > :nth-child(1n + 1),
-			.grid-style > :nth-child(1n) {
-				width: calc(100% + 1rem);
+			.grid-style > :nth-child(2n + 1),
+			.grid-style > :nth-child(2n) {
+				width: calc(50% + 1rem);
 			}
 
 		}
