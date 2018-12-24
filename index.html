@@ -20,20 +20,38 @@
 	</head>
 	<body>
 
-		<!-- LOADS IN THE HEADER INFORMATION -->
-		<script
-			src="https://code.jquery.com/jquery-3.3.1.js"
-			integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-			crossorigin="anonymous">
-		</script>
-		<script>
-			$(function(){
-				$("#header").load("header.html");
-				// $("#footer").load("footer.html");
-			});
-		</script>
-		<div id="header"></div>
+		<!-- Header -->
+			<header id="header" class="alt">
+				<div class="logo"><a href="index.html">Tyler K. Chafin</a></div>
+				<a href="#menu">Menu</a>
+			</header>
 
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="research.html">Research</a></li>
+					<li><a href="generic.html">Software</a></li>
+					<li><a href="generic.html">Publications</a></li>
+					<li><a href="generic.html">Presentations</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="elements.html">Elements</a></li>
+				</ul>
+			</nav>
+
+			<!-- LOADS IN THE HEADER INFORMATION
+			<script
+				src="https://code.jquery.com/jquery-3.3.1.js"
+				integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+				crossorigin="anonymous">
+			</script>
+			<script>
+				$(function(){
+					$("#header").load("header.html");
+					// $("#footer").load("footer.html");
+				});
+			</script>
+			<div id="header"></div>-->
 
 		<!-- Banner -->
 			<section class="banner full">
