@@ -141,6 +141,55 @@
 			</section>
 
 		<!-- Three -->
+		<section id="three" class="wrapper style2">
+			<div class="inner">
+				<header class="align-center">
+					<p class="special">Click on a project to to learn more</p>
+				</header>
+				<div class="gallery">
+					<div>
+						<script>
+						<!--
+						// Javascript-generated gallery.
+						// make sure images and associated html pages match names
+
+						// Function to randomly draw n elements from an array
+						function getRandom(arr, n) {
+							var result = new Array(n),
+							len = arr.length,
+							taken = new Array(len);
+							if (n > len)
+								throw new RangeError("getRandom: more elements taken than available");
+							while (n--) {
+								var x = Math.floor(Math.random() * len);
+								result[n] = arr[x in taken ? taken[x] : x];
+								taken[x] = --len in taken ? taken[len] : len;
+							}
+							return result;
+						}
+
+						var myProjects = ['gila', 'bhutan', 'tapeworm', 'deer',
+						'enrichment']
+						choose = 4
+
+						chosen = getRandom(myProjects, choose)
+
+						for (i=0; i< chosen.length; i++){
+							document.write("<div><div class=\"image fit\">")
+							document.write("<img src=\"highlight_" + chosen[i] + ".png\"/>");
+							document.write("</div></div>")
+						}
+						
+						</script>
+						<noscript>
+						<img src="backupimage.jpg"/>
+						</noscript>
+				</div>
+			</div>
+		</section>
+
+
+
 			<section id="three" class="wrapper style2">
 				<div class="inner">
 					<header class="align-center">
