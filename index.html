@@ -162,7 +162,7 @@
 		}
 
 		function setGallery(){
-			print("Working")
+			document.write("working")
 			var myProjects = ['gila', 'bhutan', 'tapeworm', 'deer',
 			'enrich', 'aspido'];
 			choose = 4;
@@ -170,12 +170,12 @@
 			chosen = getRandom(myProjects, choose);
 
 			for (i=0; i< choose; i++){
-				var aid="a" + str(i)
-				var iid="i" + str(i)
+				var aid="a" + str(i);
+				var iid="i" + str(i);
 				var a = document.getElementById(aid);
-				a.href = "highlight_" + chosen[i] + ".html"
+				a.href = "highlight_" + chosen[i] + ".html";
 				var im = document.getElementById(iid);
-				im.src = "images/highlight_" + chosen[i] + ".png"
+				im.src = "images/highlight_" + chosen[i] + ".png";
 			}
 		}
 		window.onload = setGallery;
