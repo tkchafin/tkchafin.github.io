@@ -168,9 +168,9 @@
 			choose = 4;
 
 			chosen = getRandom(myProjects, choose);
-
 			for (i=0; i< choose; i++){
-				document.getElementById("i"+i).src = "images/highlight_" + chosen[i] + ".png";
+				var k = i+1
+				document.getElementById("i"+k).src = "images/highlight_" + chosen[i] + ".png";
 			}
 		}
 		window.onload = setGallery;
