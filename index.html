@@ -162,7 +162,7 @@
 		}
 
 		function setGallery(){
-			document.write("<p>function started</p>")
+			document.getElementById("out").innerHTML = "started";
 			var myProjects = ['gila', 'bhutan', 'tapeworm', 'deer',
 			'enrich', 'aspido'];
 			choose = 4;
@@ -182,6 +182,7 @@
 		</script>
 
 			<section id="three" class="wrapper style2">
+				<p id="out">script output</p>
 				<div class="inner">
 					<header class="align-center">
 						<p class="special">Click on a project to to learn more</p>
