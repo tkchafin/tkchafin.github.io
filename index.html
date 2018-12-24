@@ -170,15 +170,16 @@
 						}
 
 						var myProjects = ['gila', 'bhutan', 'tapeworm', 'deer',
-						'enrich', 'aspido']
-						choose = 4
+						'enrich', 'aspido'];
+						choose = 4;
 
-						chosen = getRandom(myProjects, choose)
+						chosen = getRandom(myProjects, choose);
 
 						for (i=0; i< chosen.length; i++){
-							document.write("<div> <div class=\"image fit\">")
-							document.write("<a href=\"images/highlight_" + chosen[i] + ".html\"><img src=\"images/highlight_" + chosen[i] + ".png/></a>");
-							document.write("</div> </div>")
+							document.write("<div><div class=\"image fit\">");
+							document.write("<a href=\"highlight_" + chosen[i] + ".html\">");
+							document.write("<img src=\"images/highlight_" + chosen[i] + ".png/></a>");
+							document.write("</div></div>");
 						}
 
 						</script>
