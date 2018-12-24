@@ -170,7 +170,7 @@
 			chosen = getRandom(myProjects, choose);
 
 			for (i=0; i< choose; i++){
-				document.getElementById("i1").src = "images/highlight_" + chosen[i] + ".png";
+				document.getElementById("i"+i).src = "images/highlight_" + chosen[i] + ".png";
 				var aid="a" + str(i);
 				var iid="i" + str(i);
 				var a = document.getElementById(aid);
