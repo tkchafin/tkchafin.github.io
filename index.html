@@ -147,43 +147,40 @@
 					<p class="special">Click on a project to to learn more</p>
 				</header>
 				<div class="gallery">
-					<div>
-						<script>
-						<!--
-						// Javascript-generated gallery.
-						// make sure images and associated html pages match names
+					<script>
+					<!--
+					// Javascript-generated gallery.
+					// make sure images and associated html pages match names
 
-						// Function to randomly draw n elements from an array
-						-->
-						function getRandom(arr, n) {
-							var result = new Array(n),
-							len = arr.length,
-							taken = new Array(len);
-							if (n > len)
-								throw new RangeError("getRandom: more elements taken than available");
-							while (n--) {
-								var x = Math.floor(Math.random() * len);
-								result[n] = arr[x in taken ? taken[x] : x];
-								taken[x] = --len in taken ? taken[len] : len;
-							}
-							return result;
+					// Function to randomly draw n elements from an array
+					-->
+					function getRandom(arr, n) {
+						var result = new Array(n),
+						len = arr.length,
+						taken = new Array(len);
+						if (n > len)
+							throw new RangeError("getRandom: more elements taken than available");
+						while (n--) {
+							var x = Math.floor(Math.random() * len);
+							result[n] = arr[x in taken ? taken[x] : x];
+							taken[x] = --len in taken ? taken[len] : len;
 						}
+						return result;
+					}
 
-						var myProjects = ['gila', 'bhutan', 'tapeworm', 'deer',
-						'enrich', 'aspido'];
-						choose = 4;
+					var myProjects = ['gila', 'bhutan', 'tapeworm', 'deer',
+					'enrich', 'aspido'];
+					choose = 4;
 
-						chosen = getRandom(myProjects, choose);
+					chosen = getRandom(myProjects, choose);
 
-						for (i=0; i< choose; i++){
-							document.write("<div><div class=\"image fit\">");
-							// document.write("<a href=\"highlight_" + chosen[i] + ".html\">");
-							document.write("<img src=\"images/highlight_" + chosen[i] + ".png/>");
-							document.write("</div></div>");
-						}
-
-						</script>
-				</div>
+					for (i=0; i< choose; i++){
+						document.write("<div><div class=\"image fit\">");
+						// document.write("<a href=\"highlight_" + chosen[i] + ".html\">");
+						document.write("<img src=\"images/highlight_" + chosen[i] + ".png/>");
+						document.write("</div></div>");
+					}
+					</script>
 			</div>
 		</section>
 
