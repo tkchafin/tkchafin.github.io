@@ -4427,7 +4427,12 @@
 				min-height: 50vh;
 				height: 50vh !important;
 			}
-
+			.banner > article h2 {
+				font-size: 4em;
+			}
+			.banner > article p {
+				font-size: 2em;
+			}
 			.banner > article {
 				background-attachment: scroll;
 			}
@@ -4448,7 +4453,7 @@
 				font-size: 3em;
 			}
 			.banner > article p {
-				font-size: .5em;
+				font-size: 1em;
 			}
 			.banner > article {
 				background-attachment: scroll;
