@@ -3465,7 +3465,7 @@
 			margin: 0;
 		}
 
-		@media screen and (max-width: 3840px) {
+		@media screen and (max-width: 1600px) {
 
 			.grid-style > * {
 				-moz-flex-shrink: 1;
