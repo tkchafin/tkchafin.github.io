@@ -4422,10 +4422,8 @@
 
 		@media screen and (max-width: 980px) {
 
-			.banner.full {
-				padding: 0;
-				min-height: 50vh;
-				height: 50vh !important;
+			.banner > article .inner {
+				width: 90%;
 			}
 			.banner > article h2 {
 				font-size: 4em;
