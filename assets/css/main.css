@@ -1656,7 +1656,11 @@
 		font-style: italic;
 	}
 
+	.content{
+		position: relative;
+	}
 	.button-bottom {
+		position: absolute;
 		bottom: 0;
 	}
 
