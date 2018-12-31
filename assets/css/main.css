@@ -3396,7 +3396,7 @@
 /* Flexgrid */
 
 	.grid-style {
-		width: 100%;
+		width: 95%;
 		margin: 0 0 2.5rem 0;
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -3424,7 +3424,7 @@
 	}
 
 		.grid-style > * {
-			width: calc(33%);
+			width: calc(100%);
 		}
 
 		.grid-style > * {
