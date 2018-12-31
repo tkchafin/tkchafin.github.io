@@ -84,6 +84,92 @@
 				</div>
 			</section>
 
+			<!-- One -->
+				<section id="One" class="wrapper style3">
+					<div class="inner">
+						<header class="align-center">
+							<p>Below are a few highlights of recent and ongoing projects</p>
+							<h2>Project highlights</h2>
+						</header>
+					</div>
+				</section>
+
+				<script>
+				<!--
+				// Javascript-generated gallery.
+				// make sure images and associated html pages match names
+
+				// Function to randomly draw n elements from an array
+				-->
+				function getRandom(arr, n) {
+					var result = new Array(n),
+					len = arr.length,
+					taken = new Array(len);
+					if (n > len)
+						throw new RangeError("getRandom: more elements taken than available");
+					while (n--) {
+						var x = Math.floor(Math.random() * len);
+						result[n] = arr[x in taken ? taken[x] : x];
+						taken[x] = --len in taken ? taken[len] : len;
+					}
+					return result;
+				}
+
+				function setGallery(){
+					var myProjects = ['gila', 'bhutan', 'tapeworm', 'deer',
+					'enrich', 'aspido'];
+					choose = 6;
+
+					chosen = getRandom(myProjects, choose);
+					for (i=0; i< choose; i++){
+						var k = i+1
+						document.getElementById("i"+k).src = "images/highlight_" + chosen[i] + ".png";
+						document.getElementById("a"+k).href= "highlight_" + chosen[i] + ".html";
+					}
+				}
+				window.onload = setGallery;
+				</script>
+
+					<section id="three" class="wrapper style2">
+						<div class="inner">
+							<header class="align-center">
+								<p class="special">Click on a project to to learn more</p>
+							</header>
+							<div class="gallery">
+								<div>
+									<div class="image fit">
+										<a id="a1" href="#"><img id="i1" src="#" alt="" /></a>
+									</div>
+								</div>
+								<div>
+									<div class="image fit">
+										<a id="a2" href="#"><img id="i2" src="#" alt="" /></a>
+									</div>
+								</div>
+								<div>
+									<div class="image fit">
+										<a id="a3" href="#"><img id="i3" src="#" alt="" /></a>
+									</div>
+								</div>
+								<div>
+									<div class="image fit">
+										<a id="a4" href="#"><img id="i4" src="#" alt="" /></a>
+									</div>
+								</div>
+								<div>
+									<div class="image fit">
+										<a id="a5" href="#"><img id="i5" src="#" alt="" /></a>
+									</div>
+								</div>
+								<div>
+									<div class="image fit">
+										<a id="a6" href="#"><img id="i6" src="#" alt="" /></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
 		<!-- Footer -->
 		<footer id="footer">
 			<div class="container">
