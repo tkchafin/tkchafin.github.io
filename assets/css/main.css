@@ -2670,7 +2670,7 @@
 
 		.wrapper > .inner {
 			margin: 0 auto;
-			width: 80rem;
+			width: 100%;
 		}
 
 		.wrapper.style1 {
@@ -3396,7 +3396,7 @@
 /* Flexgrid */
 
 	.grid-style {
-		width: 95%;
+		width: 100%;
 		margin: 0 0 2.5rem 0;
 		display: -moz-flex;
 		display: -webkit-flex;
